@@ -63,18 +63,18 @@ class Game:
         GameOver_rect = GameOver_surf.get_rect()
         GameOver_rect.midtop = (360, 15)
         self.playScreen.blit(GameOver_surf,GameOver_rect)
-        self.scoreboard(0)
+        self.scoreboard(False)
         pygame.display.flip()
         time.sleep(3)
         pygame.quit()
         sys.exit()
     
-    def scoreboard(self,choice=1):
+    def scoreboard(self,flag = True):
         """SCOREBOARD"""
         sFont = pygame.font.Font(os.path.join(self.dir,"SCORE.ttf"),25)
         Ssurf = sFont.render(f'Score : {self.score}', True, self.white)
         Srect = Ssurf.get_rect()
-        if choice ==1:
+        if flag:
             Srect.midtop = (80,10)
         else :
             Srect.midtop = (360,120)

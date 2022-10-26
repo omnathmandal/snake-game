@@ -142,11 +142,7 @@ class Game:
             if self.fstatus == False:
                 self.fpos = [random.randint(1, 71)*10,random.randint(1, 47)*10]    
             self.fstatus=True 
-             
-            #draw food
-            pygame.draw.rect(self.playScreen,self.brown,
-            pygame.Rect(self.fpos[0],self.fpos[1], 10, 10))
-
+            
             #bound
             if self.snakePos[0] > 710 or self.snakePos[0] < 0 :
                 self.gameOver()
@@ -160,5 +156,11 @@ class Game:
             
             #drawing the scoreboard
             self.scoreboard()
+             
+            #draw food
+            pygame.draw.rect(self.playScreen,self.brown,
+            pygame.Rect(self.fpos[0],self.fpos[1], 10, 10))
+            
+            #updating the screen
             pygame.display.flip()
             self.fps.tick(24)

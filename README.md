@@ -1,5 +1,12 @@
 # Snake Game
 
+![python version](https://img.shields.io/github/pipenv/locked/python-version/omnathmandal/snake-game?color=%23&style=plastic)
+![percent](https://img.shields.io/github/languages/top/omnathmandal/snake-game?style=plastic)
+![pygame](https://img.shields.io/github/pipenv/locked/dependency-version/omnathmandal/snake-game/pygame?style=plastic)
+![count](https://img.shields.io/github/directory-file-count/omnathmandal/snake-game?style=plastic)
+![size](https://img.shields.io/github/languages/code-size/omnathmandal/snake-game?style=plastic)
+
+---
 A snake game made in python using [pygame](https://www.pygame.org/news) library
 
 ## About the game
@@ -23,7 +30,7 @@ using the command given below :
 
 ```bash
 # using pip
-python -m pip install -r requirement.txt
+python -m pip install -r requirements.txt
 
 # OR
 

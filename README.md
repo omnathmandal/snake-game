@@ -15,7 +15,11 @@ This game is inspired by the classic snake game which used to come pre-installed
 
 <img src="./assets/snake.jpeg" alt="snake game original logo">
 
-In this game you can use your **WASD** or **arrow keys** on your keyboard to move around a screen. To score points you need to eat the food block which spawns randomly on the screen. For every food block eaten +1 point is awarded followed by a increase in the length of the snake. The game ends when the following conditions are encountered - the player presses the **Esc** key, snake hits a wall, snake touches its body or you close the window.
+In this game you can use your **WASD** or **arrow keys** on your keyboard to move around a screen. To score points you need to eat the food block which spawns randomly on the screen. For every food block eaten +1 point is awarded followed by a increase in the length of the snake. The game ends when the following conditions are encountered : 
+- the player presses the **Esc** key 
+- snake hits a wall 
+- snake touches its body 
+- user closes the game window
 
 ___
 

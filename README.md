@@ -21,6 +21,15 @@ In this game you can use your **WASD** or **arrow keys** on your keyboard to mov
 - snake touches its body 
 - user closes the game window
 
+---
+
+<div align = "center">
+<img src="./assets/screenshot.png" alt="screenshot">
+
+
+Screenshot of Game Over screen
+</div>
+
 ___
 
 ## How to use

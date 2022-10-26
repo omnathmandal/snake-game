@@ -6,7 +6,7 @@
 ![count](https://img.shields.io/github/directory-file-count/omnathmandal/snake-game?style=plastic)
 ![size](https://img.shields.io/github/languages/code-size/omnathmandal/snake-game?style=plastic)
 
----
+
 A snake game made in python using [pygame](https://www.pygame.org/news) library
 
 ## About the game

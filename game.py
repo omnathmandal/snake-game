@@ -119,7 +119,7 @@ class Game:
             if self.direction == 'DOWN':
                 self.snakePos[1] = self.snakePos[1] + 10
             
-            #snake body (length increase) 
+            #snake body (length increase) and (movement) 
             self.snakeBody.insert(0,list(self.snakePos))
 
             #increasing score on eating food
